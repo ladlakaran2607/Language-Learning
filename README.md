@@ -5,9 +5,14 @@ A personal German course with Claude as the tutor, aiming for B2 (comfortable sp
 - **[GERMAN_PLAN.md](GERMAN_PLAN.md)**: the roadmap, daily routine, voice practice setup and free resources
 - **[.claude/skills/deutsch/](.claude/skills/deutsch/SKILL.md)**: the `/deutsch` tutor skill for Claude Code, plus the [A1→B2 curriculum](.claude/skills/deutsch/curriculum.md)
 - **[german/](german/)**: your progress: profile, vocab deck, mistakes, session log, writing journal
-- **[WEBAPP_PLAN.md](WEBAPP_PLAN.md)**: plan for a web app version
+- **[web/](web/README.md)**: the Deutsch Tutor web app (phone + laptop), deployed to GitHub Pages
 
-## Using the tutor
+## Two ways to study
+
+1. **The web app** (`web/`): use it in the browser on your phone or laptop. Chat with voice, flashcards, lessons, writing and reading, with progress synced between devices. See [web/README.md](web/README.md) for setup.
+2. **The `/deutsch` skill in Claude Code**: the same tutor in a Claude Code session, with progress in the `german/` folder. The curriculum file is shared with the app, and vocab TSV files can be moved between the two.
+
+## Using the skill
 
 Open this repository in Claude Code (CLI, desktop, or claude.ai/code) and type:
 
